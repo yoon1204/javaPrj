@@ -22,24 +22,24 @@ public class 현수님S_4 {
 		
 		
 		 (Scanner sc = new Scanner(System.in)) {
-			while(  n  <=MAX) {
+			while(n<=MAX) {
 				//입력
-				name  =sc.next();
+				name =sc.next();
 				kor = sc.nextInt();
 				eng = sc.nextInt();
-				math  = sc.nextInt();			
+				math = sc.nextInt();			
 				sum_kor = sum_kor + kor;
-				sum_eng = sum_eng+ eng;
-				sum_math  = sum_math + math;
+				sum_eng = sum_eng + eng;
+				sum_math = sum_math + math;
 							
-				avg = ( kor+eng+math) /3.0;
+				avg = (kor+eng+math) /3.0;
 				
-				if( avg >=90) {
+				if(avg >= 90) {
 					System.out.println("excellent");
-				}else if( avg < 60) {
-					System.out.println( "fail");
+				}else if(avg < 60) {
+					System.out.println("fail");
 				}			
-				System.out.println(  name + " " + kor + "  " + eng + math + "  " +  avg);
+				System.out.println(name + " " + kor + " " + eng + math + " " + avg);
 				
 				n=n+1;
 				
