@@ -19,6 +19,8 @@ public class Ex07 {
 		String result5=e();
 		System.out.println(result5);
 		
+		int result6=f(1,5);
+		System.out.println(result6);
 	}
 	
 	public static int a(int a) {
@@ -40,6 +42,11 @@ public class Ex07 {
 
 	public static String e(){
 	   return "안녕" ;
+	}
+	
+	public static int f(int a,int b) {
+		int sum=a+b;
+		return sum;
 	}
 	
 
