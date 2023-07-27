@@ -1,4 +1,4 @@
-package day7.함수;
+package algoPrj.day7;
 
 public class Ex05 {
 	// 요구사항 : 성적표의 * => /

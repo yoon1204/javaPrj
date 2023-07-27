@@ -1,6 +1,6 @@
-package day7.함수;
+package algoPrj.day7;
 
-public class Ex9 {
+public class Ex09 {
 
 	public static void main(String[] args) {
 		

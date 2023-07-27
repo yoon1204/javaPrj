@@ -1,4 +1,4 @@
-package day7.함수;
+package algoPrj.day7;
 
 public class Ex07 {
 
