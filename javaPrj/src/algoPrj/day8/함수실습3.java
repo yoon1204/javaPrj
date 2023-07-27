@@ -13,7 +13,7 @@ public class 함수실습3 {
 			System.out.println();			//*****
 		}*/
 		
-		/*2.for(int i=1; i<=5; i++) {			//*
+		/*2.for(int i=1; i<=5; i++) {		//*
 				for(int j=1; j<=i; j++) {	//**
 					System.out.print("*");	//***
 			}								//****	
