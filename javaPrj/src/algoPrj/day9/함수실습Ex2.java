@@ -8,20 +8,22 @@ public class 함수실습Ex2 {
 		
 		Scanner sc=new Scanner(System.in);
 		
-		String[] favorite=new String[5];
-		int count=0;
-		System.out.println("메뉴: 1.등록, 2.조회 3.종료");
+		String[] a=new String[5];
+		int b=0;
+		
+		System.out.println("메뉴: 1.등록, 2.조회, 3.종료");
 		
 		while(true) {
 			int menu=sc.nextInt();
 			switch(menu) {
 			case 1:
-				System.out.println("일정등록");
-				favorite[count]=sc.next();
-				count++;
+				System.out.println("메뉴등록");
+				a[b]=sc.next();
+				b++;
 				break;
-				}
+			
 			}
+		}
 		}
 		
 				
