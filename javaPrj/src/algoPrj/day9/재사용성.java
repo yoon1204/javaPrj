@@ -16,7 +16,7 @@ public class 재사용성 {
 		System.out.println(result);
 	}
 
-			// 반환type (1개)	함수명 (입력정보)
+			// 반환type (1개) 함수명 (입력정보)
 			// 반환이 없을 때 void
 			// 복잡한 데이터를 반환해야할 때 배열이나, 객체를 사용한다
 	

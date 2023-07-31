@@ -27,7 +27,7 @@ public class 배열삭제2 {
         	newArray[i]=array[i];
         }              
                         
-        //new배열  삭제위치에서 마지막까지  반복
+        //new배열 삭제위치에서 마지막까지 반복
         //원본배열의 위치는 new배열위치+1 이다
         for( int i=index; i< newArray.length ;i++){
         	newArray[i]=array[i+1];

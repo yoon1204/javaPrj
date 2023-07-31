@@ -22,9 +22,6 @@ public class 배열삭제 {
 			newArry[i]=arr[i+1];
 		}
 		
-		
-		
-
 	}
 
 }
