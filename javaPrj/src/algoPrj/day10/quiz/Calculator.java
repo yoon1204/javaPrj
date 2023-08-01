@@ -6,6 +6,7 @@ public class Calculator {
 		return su1+su2;
 	}
 	
+	
 	public static double minus(double su3, double su4) {
 		return su3-su4;
 	}
