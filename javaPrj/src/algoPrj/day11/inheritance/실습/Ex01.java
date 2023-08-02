@@ -22,19 +22,19 @@ public class Ex01 {
 	
 
 	public static void print(Jonghyun jonghyun) {
-		jonghyun.블링블링();
+		jonghyun.종현();
 	}
 	
 	public static void print(Key key) {
-		key.만능();
+		key.키();
 	}
 		
 	public static void print(Minho minho) {
-		minho.불꽃();
+		minho.민호();
 	}
 	
 	public static void print(Taemin taemin) {
-		taemin.박력();
+		taemin.태민();
 	}
 		
 	

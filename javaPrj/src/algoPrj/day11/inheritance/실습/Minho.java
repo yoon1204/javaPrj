@@ -6,7 +6,7 @@ public class Minho extends SHINee{
 		System.out.println("링딩동링딩동");
 	}
 
-	public void 불꽃() {
+	public void 민호() {
 		System.out.println("불꽃카리스마 민호");
 	}
 		

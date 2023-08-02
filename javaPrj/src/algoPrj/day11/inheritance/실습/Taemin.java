@@ -6,7 +6,7 @@ public class Taemin extends SHINee{
 		System.out.println("암쏘큐리어스예");
 	}
 	
-	public void 박력() {
+	public void 태민() {
 		System.out.println("박력탬은 태민");
 	}
 

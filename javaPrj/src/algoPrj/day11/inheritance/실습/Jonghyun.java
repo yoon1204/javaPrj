@@ -6,7 +6,7 @@ public class Jonghyun extends SHINee {
 		System.out.println("누난너무예뻐");
 	}
 
-	public void 블링블링() {
+	public void 종현() {
 		System.out.println("블링블링 is 종현");
 	}
 

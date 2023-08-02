@@ -6,7 +6,7 @@ public class Key extends SHINee{
 		System.out.println("산소같은너");
 	}
 	
-	public void 만능() {
+	public void 키() {
 		System.out.println("만능열쇠 key");
 	}
 

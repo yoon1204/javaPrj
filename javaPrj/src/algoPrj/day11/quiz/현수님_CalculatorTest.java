@@ -12,13 +12,13 @@ public class 현수님_CalculatorTest {
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();
 		
-		int result = Calculator.add(num1, num2);
+		int result = CalculatorI.add(num1, num2);
 		System.out.println(result);
-		result = Calculator.sub(num1, num2);
+		result = CalculatorI.sub(num1, num2);
 		System.out.println(result);
-		result = Calculator.mul(num1, num2);
+		result = CalculatorI.mul(num1, num2);
 		System.out.println(result);
-		result = Calculator.div(num1, num2);
+		result = CalculatorI.div(num1, num2);
 		System.out.println(result);
 	}
 }
