@@ -4,4 +4,8 @@ public class StudentWorker extends Student{
 	public void 일하기() {
 		System.out.println("일한다");
 	}
+	
+	public void 말하기() {
+		System.out.println("말하기");
+	}
 }

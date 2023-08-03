@@ -9,7 +9,7 @@ public class Person {
 	
 	public Person() {}
 	
-	public Person(String name, int age, String marriage, int child) {
+	public Person(String name, int age, boolean marriage, int child) {
 		this.name=name;
 		this.age=age;
 		this.isMarried=isMarried;
@@ -18,7 +18,8 @@ public class Person {
 	
 	public Person(String name) {
 		this.age=40;
-		true,3);
+		this.isMarried=true;
+		this.child=3;
 	}
 	
 	public void printInfo() {
