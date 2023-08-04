@@ -28,13 +28,9 @@ public class MyCalculator_NJ implements CalculatorI {
 	}
 
 	@Override
-	public int div(int su1, int su2) {
+	public int divide(int su1, int su2) {
 		// TODO Auto-generated method stub
 		System.out.println("NJ div");
 		return su1/su2;
 	}
-
-	
-	
-
 }

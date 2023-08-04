@@ -35,7 +35,7 @@ public class MyCalculator_YJ2 implements CalculatorI {
 	}
 
 	@Override
-	public int divid(int su1, int su2) {
+	public int divide(int su1, int su2) {
 		// TODO Auto-generated method stub
 		
 		System.out.println("윤정 divide");

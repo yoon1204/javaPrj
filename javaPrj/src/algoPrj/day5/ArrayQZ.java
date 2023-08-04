@@ -1,4 +1,4 @@
-package algo.day5;
+package algoPrj.day5;
 
 import java.util.Scanner;
 public class ArrayQZ {
@@ -10,11 +10,11 @@ public class ArrayQZ {
 	 
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("===문제1====");
+		System.out.println("====문제1====");
 		int num = 0;
 		int index = 0;
 		for(int i=0; i<10; i++) {
-			System.out.print("수를 입력하세요 ");
+			System.out.print("수를 입력하세요");
 			num = sc.nextInt();
 			
 			if(num%2==0) {
@@ -45,21 +45,24 @@ public class ArrayQZ {
 		}
 		System.out.println("합은: "+sum);
 		
-
-	}
-
-	public static void main(String[] args) {
-		arr[0]=1;
-				arr[1]=2;
-				arr[2]=3;
-				arr[3]=4;
-				arr[4]=5;
-				arr[5]=6;
-				arr[6]=7;
-				arr[7]=8;
-				arr[8]=9;
-				arr[9]=10;
 		
+
+//				arr[0]=1;
+//				arr[1]=2;
+//				arr[2]=3;
+//				arr[3]=4;
+//				arr[4]=5;
+//				arr[5]=6;
+//				arr[6]=7;
+//				arr[7]=8;
+//				arr[8]=9;
+//				arr[9]=10;
+		
+
 	}
 
-}
+
+	
+	}
+
+

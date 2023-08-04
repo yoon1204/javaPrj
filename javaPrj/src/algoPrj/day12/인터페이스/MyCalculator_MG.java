@@ -20,10 +20,11 @@ public class MyCalculator_MG implements CalculatorI {
 		return num1*num2;
 	}
 	@Override
-	public double divid(int num1, int num2){
+	public int divide(int num1, int num2){
 		System.out.println("민 divide");
 		return num1/num2;
 	}
+	
 
 	
 

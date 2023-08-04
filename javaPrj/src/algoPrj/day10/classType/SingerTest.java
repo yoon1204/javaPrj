@@ -1,4 +1,4 @@
-package algoPrj.day11;
+package algoPrj.day10.classType;
 
 public class SingerTest {
 

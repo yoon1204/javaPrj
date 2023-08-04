@@ -1,11 +1,11 @@
 package algoPrj.day11.quiz;
 
-public class 객체데이터Test {
+public class 재열님_김재열_객체데이터Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		객체데이터 money = new 객체데이터();
+		재열님_김재열_객체데이터 money = new 재열님_김재열_객체데이터();
 
 		money.input(1000, 2000, 3000, 4000, 5000);
 		

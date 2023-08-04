@@ -6,7 +6,7 @@ public class 정훈님_자판기Test {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		자판기 drink = new 자판기();
+		정훈님_자판기 drink = new 정훈님_자판기();
 		
 		int money = sc.nextInt();
 		

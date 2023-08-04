@@ -3,9 +3,11 @@ package algoPrj.day2;
 import java.util.Scanner;
 
 public class 현수님S_4 {
-
-	public static void main(String[] args) {
-		 		
+	
+	
+	
+	public static void main( String[] args) {
+		
 		//입력자료
 		String name;
 		int kor, eng, math ;		
@@ -21,7 +23,8 @@ public class 현수님S_4 {
 		final int MAX=2;  //상수화변수 
 		
 		
-		 (Scanner sc = new Scanner(System.in)) {
+		 Scanner sc = new Scanner(System.in);
+		 
 			while(n<=MAX) {
 				//입력
 				name =sc.next();
@@ -43,20 +46,22 @@ public class 현수님S_4 {
 				
 				n=n+1;
 				
+				//과목별 평균구하기
+				
+				avg_kor=(double)sum_kor/MAX;
+				avg_eng=(double)sum_eng/MAX;
+				avg_math=(double)sum_math/MAX;
+				
+				//
+				System.out.println("국어평균" + avg_kor);
+				System.out.println("영어평균" + avg_eng);
+				System.out.println("수학평균" + avg_math);	 
+				
 			}
-		}		
+		 
 		
 		
-		//과목별 평균구하기
 		
-		avg_kor=(double)sum_kor/MAX;
-		avg_eng=(double)sum_eng/MAX;
-		avg_math=(double)sum_math/MAX;
-		
-		//
-		System.out.println("국어평균" + avg_kor);
-		System.out.println("영어평균" + avg_eng);
-		System.out.println("수학평균" + avg_math);	 
 
 	}
 

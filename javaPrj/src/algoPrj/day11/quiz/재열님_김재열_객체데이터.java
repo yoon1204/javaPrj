@@ -1,6 +1,6 @@
 package algoPrj.day11.quiz;
 
-public class 객체데이터 {
+public class 재열님_김재열_객체데이터 {
 
 	private int 한화;
 	private int 달러;

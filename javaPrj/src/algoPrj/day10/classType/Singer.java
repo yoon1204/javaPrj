@@ -1,4 +1,4 @@
-package algoPrj.day11;
+package algoPrj.day10.classType;
 
 public class Singer {  //캡슐화 , 정보은닉 , 정해진 인터페이스만으로 사용하게 하겠다. 
 	
