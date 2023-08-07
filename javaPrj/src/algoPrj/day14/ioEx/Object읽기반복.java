@@ -23,14 +23,14 @@ public class Object읽기반복 {
 			 */			
 			//while			
 		       try {
-				while( true) {				 
-					Score  data= (Score) ois.readObject();
+				while(true) {				 
+					Score data= (Score) ois.readObject();
 					System.out.println("객체정보 " + data);
 				}
 		      }catch(EOFException e) {
-		    	  System.out.println(" 다 읽었음");
+		    	  System.out.println("다 읽었음");
 		      }
-			  System.out.println(" 프로그램 정상 종료");
+			  System.out.println("프로그램 정상 종료");
 			
 			
 		} catch (FileNotFoundException e) {
