@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Library3{
 	Scanner sc=new Scanner(System.in);
     private String[] memberIds = new String[100];
+    
     public boolean joinId(String id) {
     	
         

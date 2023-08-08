@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Library2 {
 	
-    private ArrayList<String> memberIds = new ArrayList<String>();
+      ArrayList<String> memberIds = new ArrayList<String>();
 
     
     public boolean joinId(String id) {
@@ -15,7 +15,6 @@ public class Library2 {
         }
         return false;
     }
-
     
     public void add(String id) {
         if (joinId(id)) {
@@ -24,7 +23,6 @@ public class Library2 {
             memberIds.add(id);
             System.out.println("회원 등록이 완료되었습니다. \n");
         }
-        Scanner sc=new Scanner(System.in);
-    	id = sc.nextLine();
+        
     }
 }

@@ -19,7 +19,7 @@ public class 회원가입3 {
 		  Scanner sc=new Scanner(System.in);
 	      String a = sc.nextLine();
 			  
-	      String filePath = "res/aaa.txt";
+	        String filePath = "res/aaa.txt";
 	        String content = a;
 
 	        try {
@@ -30,6 +30,7 @@ public class 회원가입3 {
 	            // 새로운 문자열을 파일에 추가합니다.
 	            bufferedWriter.write(content);
 	            bufferedWriter.newLine(); // 새로운 줄로 이동합니다.
+	            	            
 
 	            // 리소스를 정리합니다.
 	            bufferedWriter.close();

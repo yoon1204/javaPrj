@@ -17,10 +17,12 @@ public class 회원가입4 {
 		   
 		  System.out.println("새로운 아이디를 적어주세요\r\n");
 		  Scanner sc=new Scanner(System.in);
-	      String a = sc.nextLine();
+	      String  id = sc.nextLine();
 			  
 	      String filePath = "res/aaa.txt";
-	      String content = a;
+	      String content = id;
+	      
+	      Library2 search = new Library2();
 	      
 	      
 	     
@@ -28,11 +30,16 @@ public class 회원가입4 {
 	            FileWriter fileWriter = new FileWriter(filePath, true);
 	            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 	           
-	            bufferedWriter.write(content);
-	            bufferedWriter.newLine();
+	           // bufferedWriter.write(content);
+	           // bufferedWriter.newLine();
+	            
+	            
+	            
+	            if(!search.joinId(content)) {  // 
 	          
-	            bufferedWriter.close();
-	            fileWriter.close();
+			            bufferedWriter.close();
+			            fileWriter.close();
+	            }
            
 	            System.out.println("회원가입 되었습니다.");
 	          } catch (IOException e) {
