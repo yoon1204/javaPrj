@@ -1,4 +1,4 @@
-package 도서관;
+package 프로젝트2차ver2;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,22 +8,23 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class 회원가입완성 {
-	   public static void main(String[] args) throws IOException {
+public class 회원가입_class01 {
+	   public static void Join() throws IOException {
 		   
-		  System.out.println("새로운 아이디를 적어주세요\r\n");
-		  Scanner sc=new Scanner(System.in);
+		  System.out.println(" ====================");
+		  System.out.println(" 새로운 아이디를 적어주세요.");
+		  System.out.println(" ====================\n");
+		  Scanner sc = new Scanner(System.in);
 	      String newId = sc.nextLine();
 			  
 	        String filePath = "res/aaa.txt";
-	       
 
 	        //1.회원확인( 회원정보 - 파일 aaa.txt)
 	        
 	        FileReader fileReader = new FileReader(filePath ); // true는 append 모드를 나타냅니다.
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 	        
-            Library2  users = new Library2();
+            회원가입_class02  users = new 회원가입_class02();
             
             //파일을 읽어서   arrayList   담기
             while(true) {
@@ -32,7 +33,7 @@ public class 회원가입완성 {
             	users.memberIds.add(userid);
             } 	        
             
-            // 파일에서 읽어온 정보 확이나기
+            // 파일에서 읽어온 정보 확인하기
 //            for( String s: users.memberIds) {
 //            	System.out.println( s);
 //            }	
@@ -52,9 +53,13 @@ public class 회원가입완성 {
 	            if(  !users.joinId(newId)) {
 			            bufferedWriter.write(newId);
 			            bufferedWriter.newLine(); // 새로운 줄로 이동합니다.
-			            System.out.println("회원가입 되었습니다.");
+			            System.out.println(" ====================");
+			            System.out.println(" 회원가입 되었습니다.");
+			            System.out.println(" ====================\n");
 	            } else {
-	            	System.out.println("중복된 아이디입니다");
+	            	System.out.println(" ====================");
+	            	System.out.println(" 중복된 아이디입니다.");
+	            	System.out.println(" ====================\n");
 	            }
 
 	            // 리소스를 정리합니다.
